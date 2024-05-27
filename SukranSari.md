@@ -32,7 +32,7 @@ Today (27. May 2024) I have my first Experience with GitHub.
 
 
 ## 📫 How you can reach me:
-𝚈𝚘𝚞 𝚌𝚊𝚗 𝚛𝚎𝚊𝚌𝚑 𝚖𝚎 𝚊𝚝 𝚝𝚑𝚎 𝚎𝚖𝚊𝚒𝚕 𝚒𝚗 𝚖𝚢 𝚐𝚒𝚝𝚑𝚞𝚋 𝚙𝚛𝚘𝚏𝚒𝚕𝚎. 𝙵𝚘𝚕𝚕𝚘𝚠 𝚖𝚢 𝚜𝚘𝚌𝚒𝚊𝚕𝚜!
+Follow my socials. You can also reach me at the e-mail in my profile
 
 [<img src="https://github.com/SukranSari/SukranSari/blob/main/xing.png" height="40em" align="left" alt="Follow SukranSari on Xing" title="Follow SukranSari on Xing">](https://xing.com/profile/Suekran_Sari)
 
