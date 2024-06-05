@@ -1,0 +1,16 @@
+.card {
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  /*max-width: 300px;*/ /*FLEX-LÖSUNG*/
+}
+
+.card--list {
+  list-style-type: none;
+  /*display: flex;     */ /*FLEX-LÖSUNG*/
+  /*flex-wrap: wrap;   */ /*FLEX-LÖSUNG*/
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*300px 300px;*/
+  gap: 2rem;
+  padding-top: 2rem;
+  /*align-content: stretch;*/
+}

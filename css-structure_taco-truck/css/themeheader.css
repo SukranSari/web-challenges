@@ -1,0 +1,5 @@
+.header {
+  background-color: var(--header-bg);
+  width: max-content;
+  color: var(--header-text);
+}
