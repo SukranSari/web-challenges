@@ -3,11 +3,9 @@ console.clear();
 // Part 1: Password
 const SUPER_SECRET_PASSWORD = "h4x0r13371";
 
-if (SUPER_SECRET_PASSWORD == "h4x0r1337") {
-  // code that is executed only if condition "isSunShining" is true
+if (SUPER_SECRET_PASSWORD === "h4x0r13371") {
   console.log("Welcome! You are logged in as Brunhilde1984.");
 } else {
-  // code that is executed only if condition "isSunShining" is false
   console.log("Access denied!");
 }
 
@@ -15,54 +13,51 @@ if (SUPER_SECRET_PASSWORD == "h4x0r1337") {
 
 const receivedPassword = "password1234";
 
-const check = receivedPassword
-  ? console.log("Welcome! You are logged in as Brunhilde1984.")
-  : console.log("Access denied!");
-
-/*************************************************************************************************************/
-
-// Part 2: Even / Odd
-const number = 5;
-
-if (number % 2) {
-  console.log("Odd");
+if (receivedPassword === "password1234") {
+  console.log("Welcome! You are logged in as Müller1984.");
 } else {
-  console.log("Even");
+  console.log("Sorry, access denied!");
 }
 
 /*************************************************************************************************************/
 
-const numberr = 8;
+// Part 2: Even / Odd
+const number = 6;
 
-if (numberr == 8) {
+if (number % 2 == 0) {
   console.log("EVEN");
+} else {
+  console.log("ODD");
 }
 
 /*************************************************************************************************************/
 
 // Part 3: Hotdogs
-const numberOfHotdogs = 2;
+const numberOfHotdogs = 1000500;
 
 if (numberOfHotdogs < 5) {
-  console.log("2 euro per hotdog");
-} else if (numberOfHotdogs < 18) {
-  console.log("Good afternoon.");
-} else if (numberOfHotdogs === 24) {
-  console.log("Good night.");
+  console.log("2 Euro per Hotdog.");
+} else if (numberOfHotdogs < 100) {
+  console.log("1,50 Euro per Hotdog.");
+} else if (numberOfHotdogs < 1000000) {
+  console.log("1,00 Euro per Hotdog.");
 } else {
-  console.log("Good evening.");
+  console.log("0,10 Euro per Hotdog.");
 }
 
+/*************************************************************************************************************/
+
 // Part 4: Daytime
-const currentHour = 12;
+const currentHour = 20;
 
-const statement = "";
-
+const statement = currentHour < 17 ? "Still need to learn" : "Partytime!!!";
 console.log(statement);
 
-// Part 5: Greeting
-const userName = "Archibald";
+/*************************************************************************************************************/
 
-const greeting = "Hello " + "//enter your code here" + "!";
+// Part 5: Greeting
+const name = "Archibald";
+
+const greeting = "Hello " + (name === "" ? "Coach" : name) + "!";
 
 console.log(greeting);
